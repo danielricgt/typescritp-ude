@@ -5,28 +5,42 @@ let cantidad: number;
 
 //Infrencia de tipos
 
-let vehiculo_1= "Mazda"
+let vehiculo_1 = "Mazda";
 
-cantidad = 2*4;
-
+cantidad = 2 * 4;
 
 //vatiables tipo objeto
 
-let persona : {
-    nombre: string,
-    edad: number,
-    direccion:{
-        calle: string
-        comuna: string
-    }
+const persona = {
+  nombre: "rodirgo",
+  edad: 34,
+  direccion: {
+    calle: "calle 69",
+    comuna: "alamos",
+  },
+  cursos: ["daniel", "galvan", 2022],
+};
+
+const peliculas_listado: any[]= ["la cada en el aire", 2022, true, "mama" ]
+
+let hobbies: string[] = ["daniel", "galvan"]
+
+let hobbies_2: {
+  deportes: string[];
+  peliculas: any[];
 } = {
+  deportes: ["natacion","futbol"],
+  peliculas: ["la cada en el aire", 2022, true, "mama", persona ]
+};
 
-    nombre: "rodirgo",
-    edad: 34,
-    direccion:{
-        calle: "calle 69",
-        comuna: "alamos"
-    }
+
+
+
+
+console.log(hobbies_2);
+
+let datos:any [] = ["Hello", { name: "John" }, 123, true];
+
+for (let dato of datos) {
+  console.log(dato);
 }
-
-console.log(persona);
