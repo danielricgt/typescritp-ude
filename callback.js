@@ -7,3 +7,5 @@ function imprimir_papel(a, b, mostrar) {
 imprimir_papel(3, 2, x => {
     console.log(x);
 });
+const edades = 21;
+//# sourceMappingURL=callback.js.map

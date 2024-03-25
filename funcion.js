@@ -7,3 +7,4 @@ function imprimir() {
     console.log(sumar(2, 2));
 }
 imprimir();
+//# sourceMappingURL=funcion.js.map

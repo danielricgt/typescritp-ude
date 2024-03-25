@@ -10,3 +10,4 @@ function padLeft(value, padding) {
     throw new Error(`Espera un string pero recibí ${padding}.`);
 }
 console.log(padLeft('hola mundo', 30));
+//# sourceMappingURL=anyandUnion.js.map

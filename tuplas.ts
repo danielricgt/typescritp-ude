@@ -10,7 +10,7 @@ let motocileta: vehiculoType = ['mazda', 2020, 'rojo']
 
 //Objeto
 
-led vehicles = {
+let vehicles = {
 
     marca: 'marca',
     año: 2022,

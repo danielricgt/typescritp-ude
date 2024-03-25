@@ -15,3 +15,4 @@ const throwError = (message) => {
 let sumar2;
 sumar2 = sumarnumeros;
 console.log(sumar2(2, 2));
+//# sourceMappingURL=funcionfleca.js.map

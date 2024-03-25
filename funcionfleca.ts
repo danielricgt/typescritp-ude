@@ -18,4 +18,4 @@ const throwError = (message: string) => {
 let sumar2: (a: number, b: number)=> number ;
 sumar2 = sumarnumeros;
 
-console.log(sumar2(2,2));
+console.log(sumar2(5,2));

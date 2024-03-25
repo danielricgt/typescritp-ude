@@ -39,7 +39,7 @@ let hobbies_2: {
 
 console.log(hobbies_2);
 
-let datos:any [] = ["Hello", { name: "John" }, 123, true];
+let datos: (string | object | number | boolean)[] = ["Hello", { name: "John" }, 123, true];
 
 for (let dato of datos) {
   console.log(dato);

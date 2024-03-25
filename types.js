@@ -26,3 +26,4 @@ let datos = ["Hello", { name: "John" }, 123, true];
 for (let dato of datos) {
     console.log(dato);
 }
+//# sourceMappingURL=types.js.map

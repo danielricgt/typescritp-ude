@@ -16,3 +16,4 @@ const personas = {
     role: role.profesor
 };
 console.log(personas);
+//# sourceMappingURL=enum.js.map
