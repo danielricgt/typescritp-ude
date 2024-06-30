@@ -65,6 +65,21 @@ class Car extends Vehicle implements Billables {
   }
 }
 
+class Vehiculo {
+  constructor(
+    protected readonly BrandName: string,
+    protected readonly Color: string){}
+}
+
+class Cars extends Vehiculo {
+  drive(): string {
+    return `conduciendo un auto ${this.BrandName} color ${this.Color}`;
+  } 
+}
+const vehiculito = new Cars ('Toyota', 'Rojo');
+
+const vehicle_dani = new Car ('mazda', '2012','blue',2000);
+
 class Airplane extends Vehicle implements Billables, Flyllable {
     drive():void {
       console.log(
